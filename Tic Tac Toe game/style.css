@@ -37,11 +37,14 @@ body
     border: none;
     font-size: 8vmin;
     color: #FF4A1C;
+    background-color: white;
 }
 #reset-but
 {
-    padding: 3 rem;
-    font-size: 2 rem;
-    border-radius: 3 rem;
-    border: none;
+    padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
 }
