@@ -41,10 +41,40 @@ body
 }
 #reset-but
 {
-    padding: 1rem;
+  padding: 1rem;
   font-size: 1.25rem;
   background-color: #191913;
   color: #fff;
   border-radius: 1rem;
   border: none;
+}
+
+#newbutton
+{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg
+{
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.msg-con
+{
+  height: 30vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.hide
+{
+    display: none;
 }
