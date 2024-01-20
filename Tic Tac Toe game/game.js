@@ -30,12 +30,12 @@ boxes.forEach( (box)=>
       
       // now game dram  
        count++;
-       console.log(count);
+       //console.log(count);
        let iswinner = winchances();
 
        if(count===9 && !iswinner)
        {
-        console.log("draw");
+       // console.log("draw");
         gamedraw();
        }
        
