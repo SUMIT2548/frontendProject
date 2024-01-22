@@ -27,7 +27,7 @@ boxes.forEach( (box)=>
         turnO = true;
       }
       box.disabled = true;// ture means only one time click all boxes 
-      
+      winchances();  // this funtion link with box Win formula
       // now game dram  
        count++;
        //console.log(count);
@@ -37,9 +37,7 @@ boxes.forEach( (box)=>
        {
        // console.log("draw");
         gamedraw();
-       }
-       
-        winchances();  // this funtion link with box Win formula
+       } 
    })
 })
 // now win chancees link with box / button 
